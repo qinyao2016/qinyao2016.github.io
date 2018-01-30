@@ -51,7 +51,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -61,123 +61,6 @@
 </header>
       <div class="outer">
         <section id="main">
-  
-    <article id="post-Markdown" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/01/30/Markdown/" class="article-date">
-  <time datetime="2018-01-30T11:24:56.340Z" itemprop="datePublished">2018-01-30</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<p>title: Markdown<br>date: 2018-01-30 19:14:05</p>
-<h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2><h1 id="Welcome-to-Marxico"><a href="#Welcome-to-Marxico" class="headerlink" title="Welcome to Marxico"></a>Welcome to Marxico</h1><p>@(Sample notebook)[Marxico|Manual|Markdown]</p>
-<p><strong>Marxico</strong> is a delicate Markdown editor for Evernote. With reliable storage and sync powered by Evernote, <strong>Marxico</strong> offers greate writing experience. </p>
-<ul>
-<li><strong>Versatile</strong> - supporting code highlight, <em>LaTeX</em> &amp; flow charts,  inserting images &amp; attachments by all means.</li>
-<li><strong>Exquisite</strong> -  neat but powerful editor, featuring offline docs, live preview, and offering the <a href="http://marxi.co/client_en" target="_blank" rel="noopener">desktop client</a> and offline <a href="https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop" target="_blank" rel="noopener">Chrome App</a>.</li>
-<li><strong>Sophisticated</strong> - deeply integrated with Evernote, supporting notebook &amp; tags, two-way bind editing.   </li>
-</ul>
-<hr>
-<p>[TOC]</p>
-<h2 id="Introducing-Markdown"><a href="#Introducing-Markdown" class="headerlink" title="Introducing Markdown"></a>Introducing Markdown</h2><blockquote>
-<p>Markdown is a plain text formatting syntax designed to be converted to HTML. Markdown is popularly used as format for readme files, … or in text editors for the quick creation of rich text documents.  - <a href="http://en.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">Wikipedia</a></p>
-</blockquote>
-<p>As showed in this manual, it uses hash(#) to identify headings, emphasizes some text to be <strong>bold</strong> or <em>italic</em>. You can insert a <a href="http://www.example.com" target="_blank" rel="noopener">link</a> , or a footnote[^demo]. Serveral advanced syntax are listed below, please press <code>Ctrl + /</code> to view Markdown cheatsheet.</p>
-<h3 id="Code-block"><a href="#Code-block" class="headerlink" title="Code block"></a>Code block</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span><span class="params">(param1=<span class="string">''</span>, param2=<span class="number">0</span>)</span>:</span></span><br><span class="line">    <span class="string">'''A docstring'''</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="keyword">print</span> <span class="string">'Greater'</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span>) <span class="keyword">or</span> <span class="keyword">None</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">'''interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt'''</span></span><br></pre></td></tr></table></figure>
-<h3 id="LaTeX-expression"><a href="#LaTeX-expression" class="headerlink" title="LaTeX expression"></a>LaTeX expression</h3><p>$$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p>
-<h3 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">Item</th>
-<th style="text-align:right">Value</th>
-<th style="text-align:center">Qty</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Computer</td>
-<td style="text-align:right">1600 USD</td>
-<td style="text-align:center">5</td>
-</tr>
-<tr>
-<td style="text-align:left">Phone</td>
-<td style="text-align:right">12 USD</td>
-<td style="text-align:center">12</td>
-</tr>
-<tr>
-<td style="text-align:left">Pipe</td>
-<td style="text-align:right">1 USD</td>
-<td style="text-align:center">234</td>
-</tr>
-</tbody>
-</table>
-<h3 id="Diagrams"><a href="#Diagrams" class="headerlink" title="Diagrams"></a>Diagrams</h3><h4 id="Flow-charts"><a href="#Flow-charts" class="headerlink" title="Flow charts"></a>Flow charts</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">st=&gt;start: Start</span><br><span class="line">e=&gt;end</span><br><span class="line">op=&gt;operation: My Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line"></span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure>
-<h4 id="Sequence-diagrams"><a href="#Sequence-diagrams" class="headerlink" title="Sequence diagrams"></a>Sequence diagrams</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p><strong>Note:</strong> You can find more information:</p>
-<ul>
-<li>about <strong>Sequence diagrams</strong> syntax <a href="http://bramp.github.io/js-sequence-diagrams/" target="_blank" rel="noopener">here</a>,</li>
-<li>about <strong>Flow charts</strong> syntax <a href="http://adrai.github.io/flowchart.js/" target="_blank" rel="noopener">here</a>.</li>
-</ul>
-</blockquote>
-<h3 id="Checkbox"><a href="#Checkbox" class="headerlink" title="Checkbox"></a>Checkbox</h3><p>You can use <code>- [ ]</code> and <code>- [x]</code> to create checkboxes, for example:</p>
-<ul>
-<li style="list-style: none"><input type="checkbox" checked> Item1</li>
-<li style="list-style: none"><input type="checkbox"> Item2</li>
-<li style="list-style: none"><input type="checkbox"> Item3</li>
-</ul>
-<blockquote>
-<p><strong>Note:</strong> Currently it is only partially supported. You can’t toggle checkboxes in Evernote. You can only modify the Markdown in Marxico to do that. Next version will fix this.  </p>
-</blockquote>
-<h3 id="Dancing-with-Evernote"><a href="#Dancing-with-Evernote" class="headerlink" title="Dancing with Evernote"></a>Dancing with Evernote</h3><h4 id="Notebook-amp-Tags"><a href="#Notebook-amp-Tags" class="headerlink" title="Notebook &amp; Tags"></a>Notebook &amp; Tags</h4><p><strong>Marxico</strong> add <code>@(Notebook)[tag1|tag2|tag3]</code> syntax to select notebook and set tags for the note. After typing <code>@(</code>, the notebook list would appear, please select one from it.  </p>
-<h4 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h4><p><strong>Marxico</strong> would adopt the first heading encountered as the note title. For example, in this manual the first line <code>Welcome to Marxico</code> is the title.</p>
-<h4 id="Quick-Editing"><a href="#Quick-Editing" class="headerlink" title="Quick Editing"></a>Quick Editing</h4><p>Note saved by <strong>Marxico</strong> in Evernote would have a red ribbon button on the top-right corner. Click it and it would bring you back to <strong>Marxico</strong> to edit the note. </p>
-<blockquote>
-<p><strong>Note:</strong> Currently <strong>Marxico</strong> is unable to detect and merge any modifications in Evernote by user. Please go back to <strong>Marxico</strong> to edit.</p>
-</blockquote>
-<h4 id="Data-Synchronization"><a href="#Data-Synchronization" class="headerlink" title="Data Synchronization"></a>Data Synchronization</h4><p>While saving rich HTML content in Evernote, <strong>Marxico</strong> puts the Markdown text in a hidden area of the note, which makes it possible to get the original text in <strong>Marxico</strong> and edit it again. This is a really brilliant design because:</p>
-<ul>
-<li>it is beyond just one-way exporting HTML which other services do;</li>
-<li>and it avoids privacy and security problems caused by storing content in a intermediate server. </li>
-</ul>
-<blockquote>
-<p><strong>Privacy Statement: All of your notes data are saved in Evernote. Marxico doesn’t save any of them.</strong> </p>
-</blockquote>
-<h4 id="Offline-Storage"><a href="#Offline-Storage" class="headerlink" title="Offline Storage"></a>Offline Storage</h4><p><strong>Marxico</strong> stores your unsynchronized content locally in browser storage, so no worries about network and broswer crash. It also keeps the recent file list you’ve edited in <code>Document Management(Ctrl + O)</code>.</p>
-<blockquote>
-<p><strong>Note:</strong> Although browser storage is reliable in the most time, Evernote is born to do that. So please sync the document regularly while writing.</p>
-</blockquote>
-<h2 id="Shortcuts"><a href="#Shortcuts" class="headerlink" title="Shortcuts"></a>Shortcuts</h2><p>Help    <code>Ctrl + /</code><br>Sync Doc    <code>Ctrl + S</code><br>Create Doc    <code>Ctrl + Alt + N</code><br>Maximize Editor    <code>Ctrl + Enter</code><br>Preview Doc <code>Ctrl + Alt + Enter</code><br>Doc Management    <code>Ctrl + O</code><br>Menu    <code>Ctrl + M</code></p>
-<p>Bold    <code>Ctrl + B</code><br>Insert Image    <code>Ctrl + G</code><br>Insert Link    <code>Ctrl + L</code><br>Convert Heading    <code>Ctrl + H</code></p>
-<h2 id="About-Pro"><a href="#About-Pro" class="headerlink" title="About Pro"></a>About Pro</h2><p><strong>Marixo</strong> offers a free trial of 10 days. After that, you need to <a href="http://marxi.co/purchase.html" target="_blank" rel="noopener">purchase</a> the Pro service. Otherwise, you would not be able to sync new notes. Previous notes can be edited and synced all the time.</p>
-<h2 id="Credits"><a href="#Credits" class="headerlink" title="Credits"></a>Credits</h2><p><strong>Marxico</strong> was first built upon <a href="http://dillinger.io" target="_blank" rel="noopener">Dillinger</a>, and the newest version is almost based on the awesome <a href="http://stackedit.io" target="_blank" rel="noopener">StackEdit</a>. Acknowledgments to them and other incredible open source projects!</p>
-<h2 id="Feedback-amp-Bug-Report"><a href="#Feedback-amp-Bug-Report" class="headerlink" title="Feedback &amp; Bug Report"></a>Feedback &amp; Bug Report</h2><ul>
-<li>Twitter: <a href="https://twitter.com/gock2" target="_blank" rel="noopener">@gock2</a></li>
-<li>Email: <a href="&#109;&#97;&#105;&#108;&#116;&#x6f;&#58;&#104;&#x75;&#x73;&#x74;&#103;&#x6f;&#x63;&#x6b;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#104;&#x75;&#x73;&#x74;&#103;&#x6f;&#x63;&#x6b;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></li>
-</ul>
-<hr>
-<p>Thank you for reading this manual. Now please press <code>Ctrl + M</code> and click <code>Link with Evernote</code>. Enjoy your <strong>Marxico</strong> journey!</p>
-<p>[^demo]: This is a demo footnote. Read the <a href="https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes" target="_blank" rel="noopener">MultiMarkdown Syntax Guide</a> to learn more. Note that Evernote disables ID attributes in its notes , so <code>footnote</code> and <code>TOC</code> are not actually working. </p>
-<p>-</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/01/30/Markdown/" data-id="cjd1k9rre00008d05ggxi02x4" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
   
     <article id="post-ZL-is-My-Idol" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
@@ -290,52 +173,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/01/30/ZL-is-My-Idol/" data-id="cjd1k9rru00018d05kg18ji58" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/01/30/hello-world/" class="article-date">
-  <time datetime="2018-01-30T05:51:37.231Z" itemprop="datePublished">2018-01-30</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/01/30/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/01/30/hello-world/" data-id="cjd1k9rs400028d05f96le7d4" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/01/30/ZL-is-My-Idol/" data-id="cjd1kb61h0001cj0529sjxaxo" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -361,7 +199,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Archiv</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li></ul>
     </div>
@@ -371,20 +209,12 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">letzter Beitrag</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/2018/01/30/Markdown/">(no title)</a>
-          </li>
-        
-          <li>
             <a href="/2018/01/30/ZL-is-My-Idol/">ZL is My Idol</a>
-          </li>
-        
-          <li>
-            <a href="/2018/01/30/hello-world/">Hello World</a>
           </li>
         
       </ul>
