@@ -23,7 +23,9 @@ find / -name &apos;content.json&apos;
         
         <tags>
             
-            <tag> -Linux -Shell </tag>
+            <tag> Linux </tag>
+            
+            <tag> Shell </tag>
             
         </tags>
         
