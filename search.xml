@@ -84,6 +84,11 @@ rm -rf /usr/local/test
 mv (filename) /usr/local/test
 # 在根目录下查找文件
 find / -name &apos;content.json&apos;
+# 添加环境变量
+vim /etc/profile
+  export PATH=/usr/local/MATLAB/R2013a/bin:$PATH
+  export JAVA_HOME=......
+source /etc/profile
 </code></pre>]]></content>
       
         <categories>
